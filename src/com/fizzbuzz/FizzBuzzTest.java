@@ -30,5 +30,15 @@ public class FizzBuzzTest {
 	public void test15() {
 		assertTrue(FizzBuzz.getNumber(15).equals("FizzBuzz"));
 	}
+	
+	@Test
+	public void test30() {
+		assertTrue(FizzBuzz.getNumber(30).equals("FizzBuzz"));
+	}
+	
+	@Test
+	public void test7() {
+		assertTrue(FizzBuzz.getNumber(7).equals("7"));
+	}
 
 }
